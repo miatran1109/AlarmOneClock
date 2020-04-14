@@ -23,6 +23,9 @@ Can be found on CH play in near future.
 [SRS](https://docs.google.com/document/d/18FnDyLv0YIAUWulMwzdPrGxcru3bg4rtsX-3uriw328/edit)
 [SDD](https://docs.google.com/document/d/1bGcOB950tOYoCmnpiNcFT7yY9jlH64R8OOp7k-9uFHw/edit)
 
+##Related video##
+https://www.youtube.com/watch?v=KiOcxf1pPG4&feature=youtu.be&has_verified=1
+
 ## Credits ##
 
 *Update soon*
