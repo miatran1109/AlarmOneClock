@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="0dp"
+    android:paddingBottom="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.maalarm.finalalarm.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/main_tabs_holder"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+
+        app:elevation="6dp"
+        app:tabIndicatorColor="@android:color/white"
+        app:tabIndicatorHeight="2dp"
+        app:tabMinWidth="150dp"
+        app:tabSelectedTextColor="@android:color/white">
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_alarm" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_clock" />
+
+    </android.support.design.widget.TabLayout>
+
+</RelativeLayout>
