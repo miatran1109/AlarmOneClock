@@ -31,46 +31,47 @@
 19-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:12:9-41
 20        android:supportsRtl="true"
 20-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:13:9-35
-21        android:theme="@style/AppTheme" >
-21-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:14:9-40
-22        <activity
-22-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:15:9-24:20
-23            android:name="com.example.maalarm.finalalarm.MainActivity"
-23-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:16:13-41
-24            android:label="@string/app_name"
-24-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:17:13-45
-25            android:theme="@style/AppTheme.NoActionBar" >
-25-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:18:13-56
-26            <intent-filter>
-26-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:19:13-23:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:20:17-69
-27-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:20:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:22:17-77
-29-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:22:27-74
-30            </intent-filter>
-31        </activity>
-32
-33        <receiver android:name="com.example.maalarm.finalalarm.Alarm_Receiver" />
-33-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:26:9-52
-33-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:26:19-49
-34
-35        <service
-35-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:28:9-30:19
-36            android:name="com.example.maalarm.finalalarm.RingtonePlayingService"
-36-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:28:18-56
-37            android:enabled="true" >
-37-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:29:13-35
-38        </service>
-39
-40        <activity
-40-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:32:9-35:15
-41            android:name="com.example.maalarm.finalalarm.Pop"
-41-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:33:13-32
-42            android:theme="@style/AppTheme.CustomTheme" />
-42-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:34:13-56
-43    </application>
-44
-45</manifest>
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:14:9-40
+23        <activity
+23-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:15:9-24:20
+24            android:name="com.example.maalarm.finalalarm.MainActivity"
+24-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:16:13-41
+25            android:label="@string/app_name"
+25-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:17:13-45
+26            android:theme="@style/AppTheme.NoActionBar" >
+26-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:18:13-56
+27            <intent-filter>
+27-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:19:13-23:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:20:17-69
+28-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:20:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:22:17-77
+30-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:22:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <receiver android:name="com.example.maalarm.finalalarm.Alarm_Receiver" />
+34-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:26:9-52
+34-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:26:19-49
+35
+36        <service
+36-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:28:9-30:19
+37            android:name="com.example.maalarm.finalalarm.RingtonePlayingService"
+37-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:28:18-56
+38            android:enabled="true" >
+38-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:29:13-35
+39        </service>
+40
+41        <activity
+41-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:32:9-35:15
+42            android:name="com.example.maalarm.finalalarm.Pop"
+42-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:33:13-32
+43            android:theme="@style/AppTheme.CustomTheme" />
+43-->D:\SE\AlarmOneClock-master\AlarmOneClock-master\OurAlarmClock\app\src\main\AndroidManifest.xml:34:13-56
+44    </application>
+45
+46</manifest>
