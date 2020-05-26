@@ -21,9 +21,8 @@ Can be found on CH play in near future.
 
 ## Related video ##
 https://youtu.be/sX1c3_QTK7U
+
 https://youtu.be/_qetaWBgShw
+
 https://youtu.be/c0gDM92xajA
 
-## Credits ##
-
-*Update soon*
